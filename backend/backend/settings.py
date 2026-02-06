@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-2n&=4@k8qwng#4%s-f%nj#_s36dm0fw3=%alqh8o(gco8%n!@8"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://event-creation-tqja.onrender.com/"]
 
 
 # Application definition
@@ -158,10 +158,13 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    " https://event-creation-nu.vercel.app/",
 ]
 
 CORS_ALLOW_HEADERS = [
     "authorization",
     "content-type",
+]
+CSRF_TRUSTED_ORIGINS = [
+    "https://event-creation-nu.vercel.app",
 ]
