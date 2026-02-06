@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="navbar-title">Mini Event Platform</div>
+      <div className="navbar-title">Event Platform</div>
 
       <div className="navbar-links">
         <Link to="/">Events</Link>

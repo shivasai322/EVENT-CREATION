@@ -105,11 +105,11 @@ function Dashboard() {
 
             <div className="event-actions">
               <button className="primary" onClick={() => handleRSVP(event.id)}>
-                RSVP
+                Book the seat
               </button>
 
               <button className="secondary" onClick={() => handleCancel(event.id)}>
-                Cancel
+                Cancel seat
               </button>
 
 
