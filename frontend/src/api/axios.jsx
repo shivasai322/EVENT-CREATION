@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://event-creation-tqja.onrender.com",
+  baseURL: "https://your-render-name.onrender.com/api/",
 
 });
 
