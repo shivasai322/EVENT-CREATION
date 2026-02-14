@@ -10,15 +10,8 @@ A full-stack Event Management web application built using:
 
 ---
 
-## 🚀 Live Demo
 
-Frontend (Vercel):  
-👉 https://event-creation-nu.vercel.app
 
-Backend (Render):  
-👉 https://event-creation-tqja.onrender.com
-
----
 
 ## 📌 Features
 
